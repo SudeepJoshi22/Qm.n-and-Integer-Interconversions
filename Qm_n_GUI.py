@@ -4,7 +4,7 @@ from tkinter import messagebox
 def convertFloat2Fixed():
     try:
         a = float(entry.get())
-        q1 = 4  # Modify as needed
+        q1 = 3  # Modify as needed
         q2 = 29  # Modify as needed
 
         if (a < 0):
